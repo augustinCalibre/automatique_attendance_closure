@@ -1,24 +1,34 @@
 Automatic Attendance Closure – Odoo 18
 📌 Description
 
-Ce module permet de clôturer automatiquement les présences (hr.attendance) 
+This module allows automatic closure of employee attendances (hr.attendance) after a maximum duration defined by the administrator.
 
-après une durée maximale définie par l’administrateur.
+It helps prevent forgotten check-outs and ensures accurate attendance data.
 
-Nom : Auto Close Attendance
+⚙️ Technical Details
 
+Name: Auto Close Attendance
 
+Execution frequency: Every 1 minute (configurable)
 
+Cron code:
 
-
-Exécuter tous les : 1 minute (modifiable)
-
-Code :
-
-model.\_auto\_close\_attendance()
+model._auto_close_attendance()
 
 
+The process runs automatically in the background without any manual intervention.
 
-Développé par GRAHKEN
-Module personnalisé pour Odoo 18
+👨‍💻 Author
 
+Developed by GRAHKEN
+Custom module for Odoo 18
+
+If you want, I can also:
+
+make it more marketing-friendly for Odoo Apps
+
+add a Features / Benefits section
+
+write a long description for better visibility
+
+Just tell me 👍
