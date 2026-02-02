@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="attendance_max_hours_default" model="ir.config_parameter">
+        <field name="key">attendance.max_hours</field>
+        <field name="value">8</field>
+    </record>
+</odoo>
